@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @font-face {
     font-family: "Gotham R";
     src: url("fonts/Gotham/Gotham-Book.otf")
@@ -5,11 +7,11 @@
 @font-face {
     font-family: "Gotham B";
     src: url("fonts/Gotham/Gotham-Bold.otf")
-            }
+           }
 body * {
-    font-family: "Gotham R";
+    font-family: 'Raleway';
     text-align: left;
-            }
+        }
 h2 {
     color:rgb(223, 0, 0);
     font-family: "Gotham B";
@@ -18,17 +20,19 @@ h2 {
     font-weight: bold;
     }
 h3 {
-    font-family: "Gotham R";
+    font-family: "Gotham B";
     font-size: 19px;
     }
 h4 {
     color: dimgrey;
     font-size: 17px;
+    font-weight: bold;
     }
 p {
     color: dimgrey;
     font-size: 16px;
-    line-height: 1.25rem;
+    font-weight: normal;
+    line-height: 1.5rem;
 }
 ul {
     padding-left: 30 px;
@@ -39,10 +43,12 @@ ul {
 ol {
     padding-left: 30 px;
     color: dimgrey;
-    font-family: "Gotham R"; font-size: 16px;
+    font-family: "Gotham R";
+    font-size: 16px;
     }
 li {
     color: dimgrey;
-    font-family: "Gotham R";
     font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5rem;
     }
