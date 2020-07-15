@@ -33,7 +33,12 @@ p {
     font-size: 16px;
     font-weight: normal;
     line-height: 1.5rem;
-}
+    font-family: 'Raleway';
+    }
+sup {
+    font-size: 70%;
+    font-weight: medium;
+    }
 ul {
     padding-left: 30 px;
     color: dimgrey;
@@ -51,4 +56,7 @@ li {
     font-size: 16px;
     font-weight: normal;
     line-height: 1.5rem;
+    }
+code {
+    background-color: rgb(255, 252, 200);
     }
