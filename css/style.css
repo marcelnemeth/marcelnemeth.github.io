@@ -1,8 +1,48 @@
-body * {font-family: sans-serif;}
-h2 {color:rgb(223, 0, 0); font-size: 24px;}
-h3 {font-size: 19px;}
-h4 {font-size: 17px;}
-p {color: dimgrey;font-size: 16px;}
-ul {padding-left: 30 px; font-size: 16px;}
-ol {padding-left: 30 px; font-size: 16px;}
-li {font-size: 16px;}
+@font-face {
+    font-family: "Gotham R";
+    src: url("fonts/Gotham/Gotham-Book.otf")
+            }
+@font-face {
+    font-family: "Gotham B";
+    src: url("fonts/Gotham/Gotham-Bold.otf")
+            }
+body * {
+    font-family: "Gotham R";
+    text-align: left;
+            }
+h2 {
+    color:rgb(223, 0, 0);
+    font-family: "Gotham B";
+    font-size: 24px;
+    text-transform: initial;
+    font-weight: bold;
+    }
+h3 {
+    font-family: "Gotham R";
+    font-size: 19px;
+    }
+h4 {
+    color: dimgrey;
+    font-size: 17px;
+    }
+p {
+    color: dimgrey;
+    font-size: 16px;
+    line-height: 1.25rem;
+}
+ul {
+    padding-left: 30 px;
+    color: dimgrey;
+    font-family: "Gotham R";
+    font-size: 16px;
+    }
+ol {
+    padding-left: 30 px;
+    color: dimgrey;
+    font-family: "Gotham R"; font-size: 16px;
+    }
+li {
+    color: dimgrey;
+    font-family: "Gotham R";
+    font-size: 16px;
+    }
