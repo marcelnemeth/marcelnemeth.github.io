@@ -132,3 +132,36 @@ a:active {
     text-decoration-color: rgb(90, 57, 90);
     color: rgb(90, 57, 90);
 }
+body div.login-div {
+    padding: 15px;
+    background-color: rgb(238, 238, 238);
+    border: solid 1px; color: rgb(180, 70, 70);
+    box-shadow: 0 0 8px rgb(180, 70, 70);
+    display: inline-block;
+}
+.login-div input {
+    display: block;
+    margin-bottom: 7px;
+}
+input[class*="control"] {
+    display: block;
+}
+input[class$="blue"] {
+    border: solid 1px mediumblue;
+}
+input[class$="red"] {
+    border: solid 1px red;
+}
+.login-div button:hover {
+    box-shadow: 0 0 3px rgb(180, 70, 70)
+}
+.login-div input:focus {
+    box-shadow: 0 0 5px rgb(180, 70, 70);
+    border: none;
+}
+ol li:nth-child(odd) {
+    color: rgb(180, 70, 70);
+}
+ul li:nth-child(odd) {
+    color: rgb(180, 70, 70);
+}
