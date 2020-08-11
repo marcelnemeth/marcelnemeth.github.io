@@ -17,24 +17,24 @@
             ┊<br />
             ╰► Hello, this is my awesomely superb page.
         </h2>
-    </div>  
+    </div>
     <div class="menu-div">
         <table>
             <tbody>
                 <td>
                     <a href="/index.html">
-                    <h4><b>Home</b></h4>
+                        <h4><b>Home</b></h4>
                     </a>
                 </td>
                 <td>
                     <a href="/pages/about.html">
-                    <h4><b>About</b></h4>
+                        <h4><b>About</b></h4>
                     </a>
                 </td>
                 <td>
                     <a href="/pages/products.html">
-                    <h4><b><u>Products</u></b></h4>
-                </a>
+                        <h4><b><u>Products</u></b></h4>
+                    </a>
                 </td>
             </tbody>
         </table>
@@ -49,8 +49,8 @@
         </ul>
         <li>another item</li>
         <li>yet another item</li>
-     </ul>
-     <table>
+    </ul>
+    <table>
         <caption>
             <h3>////////////////////// Whitespaces //////////////////////</h3>
         </caption>
@@ -132,23 +132,76 @@
                 </td>
             </tr>
         </tfoot>
-     </table>
-     <br>
-     <hr>
-     <h2>Place order</h2>
-     <div class="container-div">
-         <form action="">
-             <div>
-                 <label for="name">Name *</label>
-                 <input class="form-control-red" id="name" name="name" type="text" required>
-             </div>
-             <div>
-                <label for="address">Address *</label>
-                <input class="form-control-red" id="address" name="address" type="text" required>
-            </div>
+    </table>
+    <br>
+    <hr>
+    <h2>Place order</h2>
+    <div class="container-div">
+        <form action="">
+            <fieldset>
+                <legend>Selected Product</legend>
+                <div class="custom-select" style="width:200px;">
+                    <select>
+                      <option value="0">Select non breaking space:</option>
+                      <option value="1">narrow no-break space</option>
+                      <option value="2">en space</option>
+                      <option value="3">em space</option>
+                      <option value="4">3 per em space</option>
+                      <option value="5">4 per em space</option>
+                      <option value="6">6 per em space</option>
+                      <option value="7">figure space</option>
+                      <option value="8">punctuatuion</option>
+                      <option value="9">thin space</option>
+                      <option value="10">hair space</option>
+                    </select>
+                  </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Options</legend>
+                <br>
+                <div>
+                    <input checked id="standard" name="option" type="radio" value="0">
+                    <label for="nothing">Standard</label>
+                </div>
+                <div>
+                    <input checked id="code" name="option" type="radio" value="300">
+                    <label for="nothing">Code only</label>
+                </div>
+                <div>
+                    <input checked id="char-ref" name="option" type="radio" value="600">
+                    <label for="nothing">Character reference only</label>
+                </div>
+                <br>
+                <div>
+                    <input id="quantity" name="quantity" type="number" min="1" max="10">
+                    <label for="nothing">Quantity</label>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Billing information</legend>
+                <br>
+                <div>
+                    <input class="form-control-red" id="name" name="name" type="text" placeholder="Name" required>
+                </div>
+                <br>
+                <div>
+                    <input class="form-control-red" id="address" name="address" type="text" placeholder="Address" required>
+                </div>
+                <br>
+                <div>
+                    <input class="form-control-red" id="email" name="email" type="text" placeholder="Email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="comment">Comment </label>
+                    <input class="form-control-red" id="comment" name="comment" type="textarea" not required>
+                </div>
+            </fieldset>
+            <br>
             <div>
-                <label for="comment">Comment *</label>
-                <input class="form-control-red" id="comment" name="comment" type="text" required>
+                <input type="button" value="Place order"> Price: <span>1200</span> Ft
             </div>
-         </form>
-     </div>
+        </form>
+    </div>
